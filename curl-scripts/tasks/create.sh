@@ -11,8 +11,8 @@ curl "${API}${URL_PATH}" \
   --data '{
     "task": {
       "title": "'"${TITLE}"'",
-      "location": "'"${LOCATION}}"'"
-      "time": "'"${TIME}"'"
+      "location": "'"${LOCATION}}"'",
+      "time": "'"${TIME}"'",
       "details": "'"${DETAILS}"'"
     }
   }'

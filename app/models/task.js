@@ -11,11 +11,11 @@ const task = new mongoose.Schema({
   },
   time: {
       type: String,
-      required: false
+      required: true
   },
   details: {
       type: String,
-      required: false
+      required: true
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
